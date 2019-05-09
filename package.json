@@ -8,6 +8,7 @@
     "dev:EN": "cross-env LANG_TYPE=en next",
     "dev:ZH": "cross-env LANG_TYPE=zh next",
     "build:EN": "cross-env LANG_TYPE=en next build && cross-env LANG_TYPE=en next export -o out/en",
+    "build:demo": "cross-env LANG_TYPE=demo next build && cross-env LANG_TYPE=demo next export -o out/demo",
     "build:ZH": "cross-env LANG_TYPE=zh next build && cross-env LANG_TYPE=zh next export -o out/zh",
     "build": "yarn build:en && yarn build:zh",
     "start": "next start",
