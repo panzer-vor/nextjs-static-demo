@@ -7,7 +7,7 @@
 ***
 
 ### <a name="start">⊙ 启动</a>
-`yarn dev`后访问`localhost:3001`
+`yarn dev`后访问`localhost:3000`
 
 ***
 
